@@ -1,24 +1,17 @@
-# README
+# Note for Rails with Rspec
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. In the `.rspec` file, add the line:
+```
+--format documentation
+```
 
-Things you may want to cover:
+**Before:**
 
-* Ruby version
 
-* System dependencies
+![Image 01](app/assets/images/notes/image_01.png)
 
-* Configuration
 
-* Database creation
+**After:**
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Image 02](app/assets/images/notes/image_02.png)
